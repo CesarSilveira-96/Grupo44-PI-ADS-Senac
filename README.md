@@ -11,7 +11,7 @@
 | César Silveira | [@CesarSilveira-96](https://github.com/CesarSilveira-96) | cesarsilveira35@gmail.com |
 | Allan          | [@usuario](https://github.com/usuario)                   |                           |
 | Marcos         | [@usuario](https://github.com/usuario)                   |                           |
-| Paulo Mesquita | [@usuario](https://github.com/usuario)                   |                           |
+| Paulo Mesquita | [@usuario](https://github.com/usuario)                   | paulo_henrique.dm@htomail.com                     |
 | Ricardo Leão   | [@usuario](https://github.com/usuario)                   |                           |
 
 ---
