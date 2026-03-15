@@ -30,15 +30,15 @@ O que a base representa
 
 Essa base representa variações nos preços da gasolina ao redor do mundo, relacionando essas mudanças com o impacto econômico causado por tensões e conflitos internacionais, especialmente a guerra entre Estados Unidos e Irã em 2026.
 
-Quando foi produzida
+**Quando foi produzida**
 
 A base foi organizada em 2026, utilizando dados recentes do período em que o conflito começou a impactar o mercado de energia. Nesse período, os preços globais do petróleo e da gasolina sofreram aumentos significativos devido às interrupções no fornecimento e às tensões geopolíticas.
 
-Por quem foi produzida
+**Por quem foi produzida**
 
 O dataset foi publicado por zkskhurram, um usuário da plataforma Kaggle que reúne e organiza dados para análise de ciência de dados.
 
-Onde foi publicado
+**Onde foi publicado**
 
 A base foi publicada na plataforma Kaggle, um site amplamente utilizado para compartilhamento de datasets, projetos de ciência de dados e competições de machine learning.
 
@@ -63,6 +63,15 @@ Em poucas palavras, o que buscamos analisar, quais as hipóteses ou questões qu
 
 1. Hipótese A - Descrição da Hipótese
 2. Hipótese B - Descrição da Hipótese
+
+O objetivo desta análise é compreender como conflitos geopolíticos podem impactar o mercado global de energia, especialmente os preços da gasolina em diferentes países. A partir da base de dados selecionada, busca-se analisar possíveis variações nos preços dos combustíveis e identificar padrões relacionados ao impacto econômico causado por tensões internacionais.
+
+**Hipótese A – Impacto da guerra nos preços do combustível**
+A ocorrência de conflitos entre países produtores ou estratégicos no mercado de petróleo pode provocar aumento nos preços da gasolina em diversos países, devido à instabilidade no fornecimento de energia e às mudanças no mercado internacional.
+
+**Hipótese B – Impacto econômico global**
+Mesmo países que não estão diretamente envolvidos no conflito podem sofrer consequências econômicas, como aumento nos preços dos combustíveis e instabilidade no mercado energético, devido à dependência global do petróleo e das rotas de distribuição.
+
 
 ---
 
