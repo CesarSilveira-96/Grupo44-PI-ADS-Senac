@@ -19,8 +19,27 @@
 ## Base de Dados Selecionada
 
 ### [Nome]
+Preços globais da gasolina — Impacto da guerra EUA-Irã em 2026
 
 > **Descrição:** Descrição da base — o que ela representa, quando foi produzida, por quem, publicada onde.
+Descrição da base de dados
+
+A base de dados Global Petrol Prices: Impact of 2026 US‑Iran War reúne informações sobre preços de combustíveis (principalmente gasolina) em diferentes países, com o objetivo de analisar como eventos geopolíticos podem afetar o mercado global de energia.
+O que a base representa
+
+Essa base representa variações nos preços da gasolina ao redor do mundo, relacionando essas mudanças com o impacto econômico causado por tensões e conflitos internacionais, especialmente a guerra entre Estados Unidos e Irã em 2026.
+
+Quando foi produzida
+
+A base foi organizada em 2026, utilizando dados recentes do período em que o conflito começou a impactar o mercado de energia. Nesse período, os preços globais do petróleo e da gasolina sofreram aumentos significativos devido às interrupções no fornecimento e às tensões geopolíticas.
+
+Por quem foi produzida
+
+O dataset foi publicado por zkskhurram, um usuário da plataforma Kaggle que reúne e organiza dados para análise de ciência de dados.
+
+Onde foi publicado
+
+A base foi publicada na plataforma Kaggle, um site amplamente utilizado para compartilhamento de datasets, projetos de ciência de dados e competições de machine learning.
 
 ---
 
