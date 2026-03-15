@@ -20,6 +20,7 @@
 
 ### [Nome]
 Preços globais da gasolina — Impacto da guerra EUA-Irã em 2026
+https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
 
 > **Descrição:** Descrição da base — o que ela representa, quando foi produzida, por quem, publicada onde.
 Descrição da base de dados
@@ -48,6 +49,13 @@ A base foi publicada na plataforma Kaggle, um site amplamente utilizado para com
 ### Contexto
 
 Falar sobre o contexto dos dados, o que motivou a seleção da Base de dados, como isso pode ser relevante.
+
+A escolha dessa base de dados foi motivada pelo fato de que o tema está relacionado a um acontecimento atual que pode gerar impactos em escala mundial. O conflito entre os Estados Unidos e o Irã pode afetar não apenas os preços da gasolina e do petróleo, mas também diversos aspectos da economia global.
+
+A relevância desses dados está em demonstrar como uma guerra pode gerar consequências para vários países, mesmo aqueles que não estão diretamente envolvidos no conflito. Isso ocorre porque conflitos geopolíticos influenciam o comércio internacional, o fornecimento de energia e decisões políticas que acabam afetando a economia e a estabilidade de diferentes nações.
+
+Além disso, a análise dessa base de dados permite compreender melhor como eventos políticos e militares podem impactar diretamente o mercado de energia e os custos para a população. Dessa forma, o estudo desses dados contribui para entender a relação entre conflitos internacionais, economia global e variações nos preços dos combustíveis.
+
 
 ### Objetivo
 
