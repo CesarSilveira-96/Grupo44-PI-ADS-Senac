@@ -53,9 +53,13 @@ Controle de versão: Git e GitHub
 **📁 Estrutura do Repositório**
 
 /data                 # Base de dados bruta e tratada
+
 /notebooks            # Jupyter notebooks com análises exploratórias e scripts ETL
+
 /dashboard            # Arquivos e códigos relacionados ao dashboard
+
 /docs                 # Documentações e relatórios adicionais
+
 README.md             # Documentação principal do projeto
 
 ---
