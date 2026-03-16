@@ -12,6 +12,7 @@ Projeto desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistem
 **📌 Descrição do Projeto**
 
 Este projeto tem como objetivo realizar a análise de uma base de dados por meio de um processo de ETL (Extração, Transformação e Carga) e criar um dashboard interativo para visualização dos principais indicadores relacionados aos preços globais da gasolina e ao impacto da guerra entre Estados Unidos e Irã em 2026.
+
 ---
 **📌 Base de Dados Selecionada**
 
@@ -24,18 +25,22 @@ Formato: CSV
 Tamanho: Aproximadamente X MB / Y linhas (inserir o tamanho real)
 
 🔗 Dataset disponível em: https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
+
 ---
 **📌Tema**
 
 Preços globais da gasolina e o impacto da guerra entre Estados Unidos e Irã em 2026.
+
 ---
 **📌Contexto**
 
 Este dataset reúne informações sobre preços de combustíveis (principalmente gasolina) em diferentes países. A análise busca compreender como eventos geopolíticos, como o conflito entre Estados Unidos e Irã, podem impactar o mercado global de energia e a economia internacional.
+
 ---
 **📌Objetivo da Análise**
 
 Analisar como conflitos geopolíticos influenciam o mercado global de energia, especialmente os preços da gasolina em diferentes países, identificando padrões e variações causadas por tensões internacionais.
+
 ---
 **📌Tecnologias e Ferramentas**
 
