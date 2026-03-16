@@ -130,32 +130,32 @@ Durante a etapa de Transformação, os seguintes processos serão aplicados:
 
 **1. Tratamento de valores faltantes**
 
-  ● Preencher valores nulos com média, mediana ou interpolação, dependendo da coluna.
-  ● Remover linhas ou colunas irrelevantes com muitos dados faltantes.
+   ● Preencher valores nulos com média, mediana ou interpolação, dependendo da coluna.
+   ● Remover linhas ou colunas irrelevantes com muitos dados faltantes.
 
 **2. Remoção de duplicatas**
 
-  ● Identificar e remover registros repetidos para evitar distorções.
+   ● Identificar e remover registros repetidos para evitar distorções.
 
 **3. Padronização de tipos de dados**
 
-  ● Converter colunas de datas para tipo datetime.
-  ● Garantir que preços e indicadores numéricos estejam em formato numérico (float).
+   ● Converter colunas de datas para tipo datetime.
+   ● Garantir que preços e indicadores numéricos estejam em formato numérico (float).
 
 **4. Normalização e padronização de unidades**
 
-  ● Preços convertidos para USD por litro para comparação global.
-  ● Padronização de nomes de países e regiões (ex.: “USA” → “United States”).
+   ● Preços convertidos para USD por litro para comparação global.
+   ● Padronização de nomes de países e regiões (ex.: “USA” → “United States”).
 
 **5. Criação de novas colunas**
 
-  ● Diferença percentual dos preços mês a mês.
-  ● Classificação por continente ou região geopolítica.
-  ● Indicadores de impacto do conflito (ex.: aumento médio de preço após eventos específicos).
+   ● Diferença percentual dos preços mês a mês.
+   ● Classificação por continente ou região geopolítica.
+   ● Indicadores de impacto do conflito (ex.: aumento médio de preço após eventos específicos).
 
 **6. Filtragem e seleção de colunas relevantes**
 
-  ● Manter apenas as colunas necessárias para análises de preços, países, datas e indicadores geopolíticos.
+   ● Manter apenas as colunas necessárias para análises de preços, países, datas e indicadores geopolíticos.
 
 ---
 
