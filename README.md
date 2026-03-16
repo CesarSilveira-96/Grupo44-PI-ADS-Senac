@@ -14,9 +14,8 @@ Integrantes:
 | Ricardo Leão   | [@RicardoLeaoDEV](https://github.com/RicardoLeaoDEV)     | ricardoleao_1997@live.com       |
  _____________________________________________________________________________________________________________
 
-Análise de Dados — Preços Globais da Gasolina
+**Base de Dados Selecionada:**
 
-Base de Dados Selecionada:
 Global Petrol Prices — Impact of 2026 US-Iran War
 
 **Tema: Preços globais da gasolina e o impacto da guerra entre Estados Unidos e Irã em 2026.**
