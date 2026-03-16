@@ -1,9 +1,113 @@
-Grupo44 - Projeto de Análise de Dados
+**Grupo44 - Projeto de Análise de Dados**
 
 Projeto desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas do SENAC EAD, como parte da disciplina 2601 – Projeto Integrador: Desenvolvimento Low Code em Ciência de Dados.
 
-Integrantes:
+---
 
+**🔗 Link do Repositório no GitHub**
+
+[https://github.com/CesarSilveira-96/Grupo44-PI-ADS-Senac/tree/main]
+
+---
+
+**📌 Descrição do Projeto**
+
+Este projeto tem como objetivo realizar a análise de uma base de dados por meio de um processo de ETL (Extração, Transformação e Carga) e criar um dashboard interativo para visualização dos principais indicadores relacionados aos preços globais da gasolina e ao impacto da guerra entre Estados Unidos e Irã em 2026.
+
+**📌 Base de Dados Selecionada**
+
+Global Petrol Prices — Impact of 2026 US-Iran War
+
+Fonte: Kaggle Dataset
+
+Formato: CSV
+
+Tamanho: Aproximadamente X MB / Y linhas (inserir o tamanho real)
+
+**📌Tema**
+
+Preços globais da gasolina e o impacto da guerra entre Estados Unidos e Irã em 2026.
+
+**📌Contexto**
+
+Este dataset reúne informações sobre preços de combustíveis (principalmente gasolina) em diferentes países. A análise busca compreender como eventos geopolíticos, como o conflito entre Estados Unidos e Irã, podem impactar o mercado global de energia e a economia internacional.
+
+**📌Objetivo da Análise**
+
+Analisar como conflitos geopolíticos influenciam o mercado global de energia, especialmente os preços da gasolina em diferentes países, identificando padrões e variações causadas por tensões internacionais.
+
+**📌Tecnologias e Ferramentas**
+
+Linguagem de programação: Python
+
+Bibliotecas para ETL e análise: Pandas, NumPy, Matplotlib, Seaborn
+
+Ferramenta para dashboard: Power BI / Tableau / Dash (escolher a que for usar)
+
+Controle de versão: Git e GitHub
+
+---
+
+**📁 Estrutura do Repositório**
+
+/data                 # Base de dados bruta e tratada
+/notebooks            # Jupyter notebooks com análises exploratórias e scripts ETL
+/dashboard            # Arquivos e códigos relacionados ao dashboard
+/docs                 # Documentações e relatórios adicionais
+README.md             # Documentação principal do projeto
+
+---
+
+🗓️ **Planejamento do Projeto**
+
+| Semana   | Atividade                                                |
+| -------- | -------------------------------------------------------- |
+| Semana 1 | Criação do repositório e documentação inicial            |
+| Semana 2 | Seleção da base de dados e definição do escopo           |
+| Semana 3 | Limpeza, tratamento e organização dos dados              |
+| Semana 4 | Desenvolvimento de análises e hipóteses                  |
+| Semana 5 | Construção do dashboard e visualizações                  |
+| Semana 6 | Interpretação dos resultados e elaboração das conclusões |
+| Semana 7 | Documentação final e entrega do projeto                  |
+
+---
+
+| Tarefa                         | Responsável    |
+| ------------------------------ | -------------- |
+| Estruturação do README         | César Silveira |
+| Seleção e análise inicial      | Allan          |
+| Limpeza e tratamento dos dados | Marcos         |
+| Desenvolvimento das análises   | Paulo Mesquita |
+| Construção do dashboard        | Ricardo Leão   |
+| Interpretação e conclusões     | César Silveira |
+| Documentação final             | Allan          |
+| Revisão e envio final          | Marcos         |
+
+---
+
+Processo ETL Planejado
+
+1. Extração: Importação dos dados brutos do arquivo CSV disponível no Kaggle.
+
+2. Transformação: Tratamento de dados faltantes, remoção de duplicatas, padronização dos tipos e seleção das colunas relevantes para a análise.
+
+3. Carga: Salvamento dos dados limpos em um formato adequado para a análise e visualização (CSV, Parquet etc.).
+
+---
+
+| Etapa                       | Descrição                                                           | Status         |
+| --------------------------- | ------------------------------------------------------------------- | -------------- |
+| 1. Repositório GitHub       | Estrutura inicial do projeto e documentação                         | ✅ Concluído    |
+| 2. Seleção da base de dados | Escolha da base "Global Petrol Prices — Impact of 2026 US-Iran War" | ✅ Concluído    |
+| 3. Limpeza dos dados        | Tratamento de valores nulos, duplicatas e padronização              | ⏳ Em andamento |
+| 4. Análises                 | Desenvolvimento de análises exploratórias e testes de hipóteses     | ⏳ Pendente     |
+| 5. Visualização             | Criação de dashboard e gráficos                                     | ⏳ Pendente     |
+| 6. Resultados               | Interpretação dos resultados e conclusões                           | ⏳ Pendente     |
+| 7. Documentação final       | Finalização do README e documentação complementar                   | ⏳ Pendente     |
+
+---
+
+Integrantes:
  _____________________________________________________________________________________________________________
 | Nome           | GitHub                                                   | Email                           |
 | -------------- | -------------------------------------------------------- | ------------------------------- |
@@ -14,97 +118,4 @@ Integrantes:
 | Ricardo Leão   | [@RicardoLeaoDEV](https://github.com/RicardoLeaoDEV)     | ricardoleao_1997@live.com       |
  _____________________________________________________________________________________________________________
 
-**Base de Dados Selecionada:**
-
-Global Petrol Prices — Impact of 2026 US-Iran War
-
-**Tema: Preços globais da gasolina e o impacto da guerra entre Estados Unidos e Irã em 2026.**
-
-🔗 Dataset disponível em: https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
-
-**Descrição da Base de Dados**
-
-A base de dados Global Petrol Prices: Impact of 2026 US-Iran War reúne informações sobre preços de combustíveis (principalmente gasolina) em diferentes países, com o objetivo de analisar como eventos geopolíticos podem afetar o mercado global de energia.
-
-**O que a base representa**
-
-Essa base apresenta variações nos preços da gasolina ao redor do mundo, relacionando essas mudanças com o impacto econômico causado por tensões e conflitos internacionais, especialmente a guerra entre Estados Unidos e Irã em 2026.
-
-**Quando foi produzida**
-
-A base foi organizada em 2026, utilizando dados recentes do período em que o conflito começou a impactar o mercado de energia. Nesse período, os preços globais do petróleo e da gasolina sofreram aumentos significativos devido a interrupções no fornecimento e às tensões geopolíticas.
-
-**Por quem foi produzida**
-
-O dataset foi publicado por zkskhurram, um usuário da plataforma Kaggle que reúne e organiza dados para análises de ciência de dados.
-
-**Onde foi publicado**
-
-A base foi publicada na plataforma Kaggle, um site amplamente utilizado para compartilhamento de datasets, projetos de ciência de dados e competições de machine learning.
-
-**Descrição da Análise**
-**Contexto**
-
-A escolha dessa base de dados foi motivada pelo fato de que o tema está relacionado a um acontecimento recente que pode gerar impactos em escala mundial. O conflito entre os Estados Unidos e o Irã pode afetar não apenas os preços da gasolina e do petróleo, mas também diversos aspectos da economia global.
-
-A relevância desses dados está em demonstrar como uma guerra pode gerar consequências para vários países, mesmo aqueles que não estão diretamente envolvidos no conflito. Isso ocorre porque conflitos geopolíticos influenciam o comércio internacional, o fornecimento de energia e decisões políticas que acabam afetando a economia e a estabilidade de diferentes nações.
-
-Além disso, a análise dessa base de dados permite compreender melhor como eventos políticos e militares podem impactar diretamente o mercado de energia e os custos para a população. Dessa forma, o estudo desses dados contribui para entender a relação entre conflitos internacionais, economia global e variações nos preços dos combustíveis.
-
-**Objetivo da Análise**
-
-O objetivo desta análise é compreender como conflitos geopolíticos podem impactar o mercado global de energia, especialmente os preços da gasolina em diferentes países. A partir da base de dados selecionada, busca-se analisar possíveis variações nos preços dos combustíveis e identificar padrões relacionados ao impacto econômico causado por tensões internacionais.
-
-**Hipóteses**
-
-**Hipótese A** — Impacto da guerra nos preços do combustível
-
-A ocorrência de conflitos entre países produtores ou estratégicos no mercado de petróleo pode provocar aumento nos preços da gasolina em diversos países, devido à instabilidade no fornecimento de energia e às mudanças no mercado internacional.
-
-**Hipótese B** — Impacto econômico global
-
-Mesmo países que não estão diretamente envolvidos no conflito podem sofrer consequências econômicas, como aumento nos preços dos combustíveis e instabilidade no mercado energético, devido à dependência global do petróleo e das rotas de distribuição.
-
-
-
-
-🗓️ **Planejamento do Projeto**
- ______________________________________
-| Tarefa                 | Responsável |
-| ---------------------- | ----------- |
-| Estruturação do README | César       |
-| Tarefa 2               | Allan       |
-| Tarefa 3               | Marcos      |
-| Tarefa 4               | Paulo       |
-| Tarefa 5               | Ricardo     |
-| Tarefa 6               | Responsável |
-| Tarefa 7               | Responsável |
-| Tarefa 8               | Responsável |
- ______________________________________
- 
-```
-Semana 1  →  Criação do repositório no GitHub e estrutura base de documentação (README)
-Semana 2  →  Seleção da Base de dados e definição da estrutura de análise
-Semana 3  →  Envio da primeira etapa + Limpeza, tratamento e organização dos dados
-Semana 4  →  Desenvolvimento de Análises
-Semana 5  →  Construção de Dashboard, gráficos e tabelas
-Semana 6  →  Interpretação dos resultados e conclusões
-Semana 7  →  Documentação final e Envio do projeto.
-```
- ____________________________________________________________________________________________________________________________________
-| Etapa                       | Descrição                                                                             | Status       |
-| --------------------------- | ------------------------------------------------------------------------------------- | ------------ |
-| 1. Repositório GitHub       | Estrutura inicial do projeto e documentação                                           | ✅ Concluído |
-| 2. Seleção da base de dados | Global Petrol Prices — Impact of 2026 US-Iran War                                     | ✅ Concluído |
-| 3.1 Envio                   | Envio da primeira etapa do projeto                                                    | ⏳ Pendente  |
-| 3.2 Limpeza                 | Tratamento de nulos, duplicatas, padronização de tipos, seleção de colunas relevantes | ⏳ Pendente  |
-| 4. Análises                 | Desenvolvimento de análises focadas nas hipóteses levantadas                          | ⏳ Pendente  |
-| 5. Visualização             | Criação de Dashboard e organização de tabelas e planilhas                             | ⏳ Pendente  |
-| 6. Resultados               | Responder as hipóteses, descrever conclusões                                          | ⏳ Pendente  |
-| 7. Entrega                  | Finalizar e revisar documentação e enviar o projeto                                   | ⏳ Pendente  |
- ____________________________________________________________________________________________________________________________________
----
-
-## 📁 Estrutura do Repositório
-
-## [Não sei se vamos precisar]
+ ---
