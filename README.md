@@ -179,8 +179,9 @@ O dashboard será desenvolvido para facilitar a interpretação dos impactos geo
 ● Média de impacto do conflito nos preços globais.
 ● Ranking de países com preços mais altos ou mais baixos.
 
+---
 Integrantes:
- _____________________________________________________________________________________________________________
+
 | Nome           | GitHub                                                   | Email                           |
 | -------------- | -------------------------------------------------------- | ------------------------------- |
 | César Silveira | [@CesarSilveira-96](https://github.com/CesarSilveira-96) | cesarsilveira35@gmail.com       |
@@ -189,7 +190,6 @@ Integrantes:
 |
 | Paulo Mesquita | [@usuario](https://github.com/usuario)                   | paulo_henrique.dm@hotmail.com   |
 | Ricardo Leão   | [@RicardoLeaoDEV](https://github.com/RicardoLeaoDEV)     | ricardoleao_1997@live.com       |
- _____________________________________________________________________________________________________________
 
  ---
 
