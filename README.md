@@ -112,10 +112,11 @@ Integrantes:
 | Nome           | GitHub                                                   | Email                           |
 | -------------- | -------------------------------------------------------- | ------------------------------- |
 | César Silveira | [@CesarSilveira-96](https://github.com/CesarSilveira-96) | cesarsilveira35@gmail.com       |
-| Allan          | [@usuario](https://github.com/usuario)                   |                                 |
+| Allan          | [@slimaallan-ops](https://github.com/slimaallan-ops)          | slima.allan@gmail.com       |
 | Marcos         | [@usuario](https://github.com/usuario)                   |                                 |
 | Paulo Mesquita | [@usuario](https://github.com/usuario)                   | paulo_henrique.dm@hotmail.com   |
 | Ricardo Leão   | [@RicardoLeaoDEV](https://github.com/RicardoLeaoDEV)     | ricardoleao_1997@live.com       |
  _____________________________________________________________________________________________________________
 
  ---
+
