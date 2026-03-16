@@ -107,6 +107,68 @@ Processo ETL Planejado
 
 ---
 
+| Etapa         | Descrição                                                                                                   | Status         |
+| ------------- | ----------------------------------------------------------------------------------------------------------- | -------------- |
+| Extração      | Importação dos dados brutos do CSV do Kaggle                                                                | ✅ Concluído    |
+| Transformação | Tratamento de dados faltantes, remoção de duplicatas, padronização de tipos e seleção de colunas relevantes | ⏳ Em andamento |
+| Carga         | Salvamento dos dados limpos em CSV ou Parquet para análise e visualização                                   | ⏳ Em andamento |
+
+---
+**📌 Transformações de Dados Planejadas (ETL – Transformação)**
+
+Durante a etapa de Transformação, os seguintes processos serão aplicados:
+
+**1. Tratamento de valores faltantes**
+
+● Preencher valores nulos com média, mediana ou interpolação, dependendo da coluna.
+● Remover linhas ou colunas irrelevantes com muitos dados faltantes.
+
+**2. Remoção de duplicatas**
+
+Identificar e remover registros repetidos para evitar distorções.
+
+**3. Padronização de tipos de dados**
+
+● Converter colunas de datas para tipo datetime.
+● Garantir que preços e indicadores numéricos estejam em formato numérico (float).
+
+**4. Normalização e padronização de unidades**
+
+● Preços convertidos para USD por litro para comparação global.
+● Padronização de nomes de países e regiões (ex.: “USA” → “United States”).
+
+**5. Criação de novas colunas**
+
+● Diferença percentual dos preços mês a mês.
+● Classificação por continente ou região geopolítica.
+● Indicadores de impacto do conflito (ex.: aumento médio de preço após eventos específicos).
+
+**6. Filtragem e seleção de colunas relevantes**
+
+● Manter apenas as colunas necessárias para análises de preços, países, datas e indicadores geopolíticos.
+
+---
+
+**📌 Visualizações e Métricas do Dashboard**
+
+O dashboard será desenvolvido para facilitar a interpretação dos impactos geopolíticos nos preços globais da gasolina, incluindo:
+
+**Visualizações**
+
+● Gráfico de linha temporal: Preço médio da gasolina ao longo do tempo por país ou região.
+● Mapa mundial interativo (choropleth): Preços da gasolina por país, destacando variações regionais.
+● Gráfico de barras comparativo: Comparação de preços antes e depois do conflito entre EUA e Irã.
+● Boxplot ou violino: Distribuição de preços entre países ou regiões.
+● Gráfico de dispersão: Relação entre preço da gasolina e indicadores econômicos ou geopolíticos.
+
+**Métricas**
+
+● Preço médio global e por região.
+● Variação percentual de preços mês a mês.
+● Países com maior aumento ou queda de preços.
+● Média de impacto do conflito nos preços globais.
+● Ranking de países com preços mais altos ou mais baixos.
+
 Integrantes:
  _____________________________________________________________________________________________________________
 | Nome           | GitHub                                                   | Email                           |
