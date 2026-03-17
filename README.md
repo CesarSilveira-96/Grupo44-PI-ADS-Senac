@@ -203,6 +203,7 @@ Importação dos dados do arquivo CSV (Kaggle)
 - Ranking de preços  
 
 ## **O dashboard terá como objetivo permitir a análise interativa dos preços globais, com foco em comparação temporal e geográfica**
+
 ---
 
 ## 👨‍💻 Integrantes
