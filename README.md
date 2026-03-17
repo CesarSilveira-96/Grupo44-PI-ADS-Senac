@@ -101,14 +101,14 @@ README.md --------- # Documentação principal do projeto
 
 | Tarefa                         | Responsável        |
 |--------------------------------|--------------------|
-| README                         | César Silveira     |
-| Análise inicial                | Allan              |
-| Tratamento de dados            | Marcos             |
-| Análises                       | Paulo Mesquita     |
-| Dashboard                      | Ricardo Leão       |
-| Conclusões                     | César Silveira     |
+| README                         | Todos              |
+| Análise inicial                | Allan + César      |
+| Tratamento de dados            | Marcos + Ricardo   |
+| Análises                       | Paulo              |
+| Dashboard                      | Todos              |
+| Conclusões                     | César  + Ricardo   |
 | Documentação                   | Allan              |
-| Revisão final                  | Marcos             |
+| Revisão final                  | Marcos + Paulo     |
 
 ---
 
