@@ -81,7 +81,7 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 ---
 
 **📁 Estrutura do Repositório**
-
+```
 /data
   ├── raw          # Dados brutos
   └── processed    # Dados tratados
@@ -93,7 +93,7 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 /docs              # Documentação adicional
 
 README.md
-
+```
 ---
 
 ## 🔄 Processo ETL
