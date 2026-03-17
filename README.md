@@ -4,8 +4,6 @@ Projeto desenvolvido por alunos do curso de **Análise e Desenvolvimento de Sist
 
 **2601 – Projeto Integrador: Desenvolvimento Low Code em Ciência de Dados**
 
----
-
 ## 🔗 Repositório
 
 Acesse o projeto no GitHub:  
