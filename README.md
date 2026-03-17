@@ -29,8 +29,11 @@ A análise foca nos **preços globais da gasolina** e no impacto do conflito ent
 - **Tamanho:** ~150–300 K
 - **Linhas:** ~250 a 600
 
-🔗 Dataset:  
+## 🔗 **Dataset:**  
 https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
+
+⚠️ **Observação:**  
+O dataset utilizado possui caráter **simulado/hipotético**, sendo baseado em cenários de impacto geopolítico sobre preços de combustíveis, com finalidade educacional e analítica.
 
 ---
 
