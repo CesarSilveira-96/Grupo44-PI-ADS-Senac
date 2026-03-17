@@ -1,53 +1,72 @@
-**Grupo44 - Projeto de Análise de Dados**
+# 📊 Grupo44 - Projeto de Análise de Dados
 
-Projeto desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas do SENAC EAD, como parte da disciplina 2601 – Projeto Integrador: Desenvolvimento Low Code em Ciência de Dados.
+Projeto desenvolvido por alunos do curso de **Análise e Desenvolvimento de Sistemas (SENAC EAD)**, como parte da disciplina:
+
+**2601 – Projeto Integrador: Desenvolvimento Low Code em Ciência de Dados**
+
+---
+
+## 🔗 Repositório
+
+Acesse o projeto no GitHub:  
+👉 https://github.com/CesarSilveira-96/Grupo44-PI-ADS-Senac/tree/main
 
 ---
 
-**🔗 Link do Repositório no GitHub**
+## 📌 Descrição do Projeto
 
-[https://github.com/CesarSilveira-96/Grupo44-PI-ADS-Senac/tree/main]
+Este projeto tem como objetivo realizar a análise de uma base de dados utilizando um processo de **ETL (Extração, Transformação e Carga)**, além da criação de um **dashboard interativo**.
 
----
-**📌 Descrição do Projeto**
-
-Este projeto tem como objetivo realizar a análise de uma base de dados por meio de um processo de ETL (Extração, Transformação e Carga) e criar um dashboard interativo para visualização dos principais indicadores relacionados aos preços globais da gasolina e ao impacto da guerra entre Estados Unidos e Irã em 2026.
+A análise foca nos **preços globais da gasolina** e no impacto do conflito entre **Estados Unidos e Irã em 2026**.
 
 ---
-**📌 Base de Dados Selecionada**
 
-**Nome:** Global Petrol Prices — Impact of 2026 US-Iran War<br>
-**Fonte:** Kaggle Dataset<br>
-**Formato:** CSV<br>
-**Tamanho:** Aproximadamente X MB / Y linhas (inserir o tamanho real)<br>
+## 📊 Base de Dados
 
-🔗 Dataset disponível em: https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
+- **Nome:** Global Petrol Prices — Impact of 2026 US-Iran War  
+- **Fonte:** Kaggle  
+- **Formato:** CSV  
+- **Tamanho:** Aproximadamente X MB / Y linhas *(atualizar)*  
 
----
-**📌Tema**
-
-Preços globais da gasolina e o impacto da guerra entre Estados Unidos e Irã em 2026.
+🔗 Dataset:  
+https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
 
 ---
-**📌Contexto**
 
-Este dataset reúne informações sobre preços de combustíveis (principalmente gasolina) em diferentes países. A análise busca compreender como eventos geopolíticos, como o conflito entre Estados Unidos e Irã, podem impactar o mercado global de energia e a economia internacional.
+## 🎯 Tema
 
----
-**📌Objetivo da Análise**
-
-Analisar como conflitos geopolíticos influenciam o mercado global de energia, especialmente os preços da gasolina em diferentes países, identificando padrões e variações causadas por tensões internacionais.
+Preços globais da gasolina e o impacto do conflito entre Estados Unidos e Irã em 2026.
 
 ---
-**📌Tecnologias e Ferramentas**
 
-Linguagem de programação: Python
+## 🌍 Contexto
 
-Bibliotecas para ETL e análise: Pandas, NumPy, Matplotlib, Seaborn
+O dataset reúne informações sobre preços de combustíveis em diversos países.
 
-Ferramenta para dashboard: Power BI / Tableau / Dash (escolher a que for usar)
+A proposta é analisar como **eventos geopolíticos** impactam:
+- o mercado global de energia
+- os preços da gasolina
+- a economia internacional
 
-Controle de versão: Git e GitHub
+---
+
+## 🎯 Objetivo da Análise
+
+Analisar como conflitos geopolíticos influenciam o mercado global de energia, identificando:
+- padrões de variação de preços
+- impactos regionais
+- mudanças ao longo do tempo
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+- **Linguagem:** Python  
+- **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Dashboard:** Power BI / Tableau / Dash *(definir)*  
+- **Versionamento:** Git e GitHub  
+
+---
 
 ---
 
