@@ -68,8 +68,6 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 
 ---
 
----
-
 **📁 Estrutura do Repositório**
 
 /Data ------------ # Base de dados bruta e tratada
@@ -84,127 +82,124 @@ README.md --------- # Documentação principal do projeto
 
 ---
 
-🗓️ **Planejamento do Projeto**
+## 🗓️ Planejamento
 
 | Semana   | Atividade                                                |
-| -------- | -------------------------------------------------------- |
+|----------|----------------------------------------------------------|
 | Semana 1 | Criação do repositório e documentação inicial            |
 | Semana 2 | Seleção da base de dados e definição do escopo           |
-| Semana 3 | Limpeza, tratamento e organização dos dados              |
-| Semana 4 | Desenvolvimento de análises e hipóteses                  |
-| Semana 5 | Construção do dashboard e visualizações                  |
-| Semana 6 | Interpretação dos resultados e elaboração das conclusões |
-| Semana 7 | Documentação final e entrega do projeto                  |
+| Semana 3 | Limpeza e tratamento dos dados                           |
+| Semana 4 | Análises e hipóteses                                     |
+| Semana 5 | Construção do dashboard                                  |
+| Semana 6 | Interpretação dos resultados                             |
+| Semana 7 | Documentação final e entrega                             |
 
 ---
 
-| Tarefa                         | Responsável    |
-| ------------------------------ | -------------- |
-| Estruturação do README         | César Silveira |
-| Seleção e análise inicial      | Allan          |
-| Limpeza e tratamento dos dados | Marcos         |
-| Desenvolvimento das análises   | Paulo Mesquita |
-| Construção do dashboard        | Ricardo Leão   |
-| Interpretação e conclusões     | César Silveira |
-| Documentação final             | Allan          |
-| Revisão e envio final          | Marcos         |
+## 👥 Responsabilidades
+
+| Tarefa                         | Responsável        |
+|--------------------------------|--------------------|
+| README                         | César Silveira     |
+| Análise inicial                | Allan              |
+| Tratamento de dados            | Marcos             |
+| Análises                       | Paulo Mesquita     |
+| Dashboard                      | Ricardo Leão       |
+| Conclusões                     | César Silveira     |
+| Documentação                   | Allan              |
+| Revisão final                  | Marcos             |
 
 ---
 
-Processo ETL Planejado
+## 🔄 Processo ETL
 
-1. Extração: Importação dos dados brutos do arquivo CSV disponível no Kaggle.
+### 1. Extração
+Importação dos dados do arquivo CSV (Kaggle)
 
-2. Transformação: Tratamento de dados faltantes, remoção de duplicatas, padronização dos tipos e seleção das colunas relevantes para a análise.
+### 2. Transformação
+- Tratamento de valores faltantes  
+- Remoção de duplicatas  
+- Padronização de dados  
+- Seleção de colunas relevantes  
 
-3. Carga: Salvamento dos dados limpos em um formato adequado para a análise e visualização (CSV, Parquet etc.).
-
----
-
-| Etapa                       | Descrição                                                           | Status         |
-| --------------------------- | ------------------------------------------------------------------- | -------------- |
-| 1. Repositório GitHub       | Estrutura inicial do projeto e documentação                         | ✅ Concluído    |
-| 2. Seleção da base de dados | Escolha da base "Global Petrol Prices — Impact of 2026 US-Iran War" | ✅ Concluído    |
-| 3. Limpeza dos dados        | Tratamento de valores nulos, duplicatas e padronização              | ⏳ Em andamento |
-| 4. Análises                 | Desenvolvimento de análises exploratórias e testes de hipóteses     | ⏳ Pendente     |
-| 5. Visualização             | Criação de dashboard e gráficos                                     | ⏳ Pendente     |
-| 6. Resultados               | Interpretação dos resultados e conclusões                           | ⏳ Pendente     |
-| 7. Documentação final       | Finalização do README e documentação complementar                   | ⏳ Pendente     |
+### 3. Carga
+- Exportação para CSV ou Parquet  
 
 ---
 
-| Etapa         | Descrição                                                                                                   | Status         |
-| ------------- | ----------------------------------------------------------------------------------------------------------- | -------------- |
-| Extração      | Importação dos dados brutos do CSV do Kaggle                                                                | ✅ Concluído    |
-| Transformação | Tratamento de dados faltantes, remoção de duplicatas, padronização de tipos e seleção de colunas relevantes | ⏳ Em andamento |
-| Carga         | Salvamento dos dados limpos em CSV ou Parquet para análise e visualização                                   | ⏳ Em andamento |
+## 📊 Status do Projeto
 
----
-**📌 Transformações de Dados Planejadas (ETL – Transformação)**
-
-Durante a etapa de Transformação, os seguintes processos serão aplicados:
-
-**1. Tratamento de valores faltantes**
-
-   ● Preencher valores nulos com média, mediana ou interpolação, dependendo da coluna.
-   ● Remover linhas ou colunas irrelevantes com muitos dados faltantes.
-
-**2. Remoção de duplicatas**
-
-   ● Identificar e remover registros repetidos para evitar distorções.
-
-**3. Padronização de tipos de dados**
-
-   ● Converter colunas de datas para tipo datetime.
-   ● Garantir que preços e indicadores numéricos estejam em formato numérico (float).
-
-**4. Normalização e padronização de unidades**
-
-   ● Preços convertidos para USD por litro para comparação global.
-   ● Padronização de nomes de países e regiões (ex.: “USA” → “United States”).
-
-**5. Criação de novas colunas**
-
-   ● Diferença percentual dos preços mês a mês.
-   ● Classificação por continente ou região geopolítica.
-   ● Indicadores de impacto do conflito (ex.: aumento médio de preço após eventos específicos).
-
-**6. Filtragem e seleção de colunas relevantes**
-
-   ● Manter apenas as colunas necessárias para análises de preços, países, datas e indicadores geopolíticos.
+| Etapa                       | Status         |
+|---------------------------|----------------|
+| Repositório               | ✅ Concluído    |
+| Base de dados             | ✅ Concluído    |
+| Limpeza                   | ⏳ Em andamento |
+| Análises                  | ⏳ Pendente     |
+| Visualizações             | ⏳ Pendente     |
+| Resultados                | ⏳ Pendente     |
+| Documentação final        | ⏳ Pendente     |
 
 ---
 
-**📌 Visualizações e Métricas do Dashboard**
+## 🔄 Status do ETL
 
-O dashboard será desenvolvido para facilitar a interpretação dos impactos geopolíticos nos preços globais da gasolina, incluindo:
-
-**Visualizações**
-
-● Gráfico de linha temporal: Preço médio da gasolina ao longo do tempo por país ou região.
-● Mapa mundial interativo (choropleth): Preços da gasolina por país, destacando variações regionais.
-● Gráfico de barras comparativo: Comparação de preços antes e depois do conflito entre EUA e Irã.
-● Boxplot ou violino: Distribuição de preços entre países ou regiões.
-● Gráfico de dispersão: Relação entre preço da gasolina e indicadores econômicos ou geopolíticos.
-
-**Métricas**
-
-● Preço médio global e por região.
-● Variação percentual de preços mês a mês.
-● Países com maior aumento ou queda de preços.
-● Média de impacto do conflito nos preços globais.
-● Ranking de países com preços mais altos ou mais baixos.
+| Etapa         | Status         |
+|--------------|----------------|
+| Extração     | ✅ Concluído    |
+| Transformação| ⏳ Em andamento |
+| Carga        | ⏳ Em andamento |
 
 ---
-Integrantes:
 
-| Nome           | GitHub                                                   | Email                           |
-| -------------- | -------------------------------------------------------- | ------------------------------- |
-| César Silveira | [@CesarSilveira-96](https://github.com/CesarSilveira-96) | cesarsilveira35@gmail.com       |
-| Allan          | [@slimaallan-ops](https://github.com/slimaallan-ops)     | slima.allan@gmail.com           |
-| Marcos         | [@usuario](https://github.com/usuario)                   |    marcosbahia2605@gmail.com    |
-| Paulo Mesquita | [@usuario](https://github.com/usuario)                   | paulo_henrique.dm@hotmail.com   |
-| Ricardo Leão   | [@RicardoLeaoDEV](https://github.com/RicardoLeaoDEV)     | ricardoleao_1997@live.com       |
+## 🔧 Transformações de Dados (ETL)
 
- ---
+### ✔️ Tratamento de dados
+- Preenchimento de valores nulos  
+- Remoção de dados irrelevantes  
 
+### ✔️ Limpeza
+- Remoção de duplicatas  
+
+### ✔️ Padronização
+- Conversão para datetime  
+- Dados numéricos em float  
+
+### ✔️ Normalização
+- Preços em USD/L  
+- Padronização de países  
+
+### ✔️ Engenharia de dados
+- Variação percentual  
+- Classificação por região  
+- Indicadores de impacto  
+
+---
+
+## 📊 Dashboard (Planejado)
+
+### Visualizações
+- Série temporal de preços  
+- Mapa mundial (choropleth)  
+- Comparação antes/depois do conflito  
+- Distribuição (boxplot/violino)  
+- Correlação (dispersão)  
+
+### Métricas
+- Preço médio global  
+- Variação percentual  
+- Países com maior impacto  
+- Ranking de preços  
+
+---
+
+## 👨‍💻 Integrantes
+
+| Nome           | GitHub                                      | Email                         |
+|----------------|---------------------------------------------|-------------------------------|
+| César Silveira | https://github.com/CesarSilveira-96         | cesarsilveira35@gmail.com     |
+| Allan          | https://github.com/slimaallan-ops           | slima.allan@gmail.com         |
+| Marcos         | https://github.com/usuario                  | marcosbahia2605@gmail.com     |
+| Paulo Mesquita | https://github.com/usuario                  | paulo_henrique.dm@hotmail.com |
+| Ricardo Leão   | https://github.com/RicardoLeaoDEV           | ricardoleao_1997@live.com     |
+
+---
