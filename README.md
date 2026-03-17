@@ -170,7 +170,7 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Carga        | ⏳ Em andamento |
 
 ---
-
+```
 ## 📊 Status do Projeto
 
 | Etapa                       | Status         |
@@ -182,7 +182,7 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Visualizações             | ⏳ Pendente     |
 | Resultados                | ⏳ Pendente     |
 | Documentação final        | ⏳ Pendente     |
-
+```
 ---
 
 ## 🗓️ Planejamento
