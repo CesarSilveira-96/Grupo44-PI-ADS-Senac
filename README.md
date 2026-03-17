@@ -120,7 +120,7 @@ Após o tratamento, os dados são armazenados para uso nas análises e visualiza
 
 - Exportação para arquivos CSV e/ou Parquet:
 
-## **Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
+**Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
 
 ---
 
