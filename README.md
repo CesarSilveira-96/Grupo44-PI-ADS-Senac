@@ -120,8 +120,6 @@ Após o tratamento, os dados são armazenados para uso nas análises e visualiza
 
 - Exportação para arquivos CSV e/ou Parquet:
 
-df.to_csv('data/processed/dados_tratados.csv', index=False)
-
 ## **Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
 
 ---
