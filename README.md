@@ -43,13 +43,10 @@ Por se tratar de um conjunto de dados sintético, não há garantia de atualiza�
 
 Sua utilização neste projeto tem como objetivo explorar padrões, tendências e possíveis impactos em um cenário controlado, permitindo o desenvolvimento de habilidades analíticas.
 
----
 
 ## 🎯 Tema
 
 Preços globais da gasolina e o impacto do conflito entre Estados Unidos e Irã em 2026.
-
----
 
 ## 🌍 Contexto
 
