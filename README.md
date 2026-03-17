@@ -11,15 +11,11 @@ Projeto desenvolvido por alunos do curso de **Análise e Desenvolvimento de Sist
 Acesse o projeto no GitHub:  
 👉 https://github.com/CesarSilveira-96/Grupo44-PI-ADS-Senac/tree/main
 
----
-
 ## 📌 Descrição do Projeto
 
 Este projeto tem como objetivo realizar a análise de uma base de dados utilizando um processo de **ETL (Extração, Transformação e Carga)**, além da criação de um **dashboard interativo**.
 
 A análise foca nos **preços globais da gasolina** e no impacto do conflito entre **Estados Unidos e Irã em 2026**.
-
----
 
 ## 📊 Base de Dados
 
@@ -43,7 +39,6 @@ Por se tratar de um conjunto de dados sintético, não há garantia de atualiza�
 
 Sua utilização neste projeto tem como objetivo explorar padrões, tendências e possíveis impactos em um cenário controlado, permitindo o desenvolvimento de habilidades analíticas.
 
-
 ## 🎯 Tema
 
 Preços globais da gasolina e o impacto do conflito entre Estados Unidos e Irã em 2026.
@@ -57,16 +52,12 @@ A proposta é analisar como **eventos geopolíticos** impactam:
 - os preços da gasolina
 - a economia internacional
 
----
-
 ## 🎯 Objetivo da Análise
 
 Analisar como conflitos geopolíticos influenciam o mercado global de energia, identificando:
 - padrões de variação de preços
 - impactos regionais
 - mudanças ao longo do tempo
-
----
 
 ## 🛠️ Tecnologias e Ferramentas
 
@@ -75,9 +66,7 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 - **Dashboard:** Power BI
 - **Versionamento:** Git e GitHub  
 
----
-
-**📁 Estrutura do Repositório**
+## **📁 Estrutura do Repositório**
 ```
 /data
   ├── raw          # Dados brutos
@@ -91,7 +80,6 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 
 README.md
 ```
----
 
 ## 🔄 Processo ETL
 
@@ -119,10 +107,8 @@ Nesta etapa, os dados passam por um processo de limpeza e padronização, inclui
 Após o tratamento, os dados são armazenados para uso nas análises e visualizações:
 
 - Exportação para arquivos CSV e/ou Parquet: ```df.to_csv('data/processed/dados_tratados.csv', index=False)```
-
-**Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
-
 ---
+**Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
 
 ## 📊 Dashboard (Planejado)
 
@@ -156,8 +142,6 @@ O dashboard será desenvolvido com o objetivo de permitir a análise interativa 
 
 Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos preços da gasolina, permitindo análises comparativas e identificação de padrões globais.
 
----
-
 ## 🔄 Status do ETL
 
 | Etapa         | Status         |
@@ -165,8 +149,6 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Extração     | ✅ Concluído    |
 | Transformação| ⏳ Em andamento |
 | Carga        | ⏳ Em andamento |
-
----
 
 ## 📊 Status do Projeto
 
@@ -180,8 +162,6 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Resultados                | ⏳ Pendente     |
 | Documentação final        | ⏳ Pendente     |
 
----
-
 ## 🗓️ Planejamento
 
 | Semana   | Atividade                                                |
@@ -193,8 +173,6 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Semana 5 | Construção do dashboard                                  |
 | Semana 6 | Interpretação dos resultados                             |
 | Semana 7 | Documentação final e entrega                             |
-
----
 
 ## 👥 Responsabilidades
 
@@ -209,8 +187,6 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Documentação                   | Allan              |
 | Revisão final                  | Marcos + Paulo     |
 
----
-
 ## 👨‍💻 Integrantes
 
 | Nome           | GitHub                                      | Email                         |
@@ -220,5 +196,4 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Marcos         | https://github.com/usuario                  | marcosbahia2605@gmail.com     |
 | Paulo Mesquita | https://github.com/usuario                  | paulo_henrique.dm@hotmail.com |
 | Ricardo Leão   | https://github.com/RicardoLeaoDEV           | ricardoleao_1997@live.com     |
-
 ---
