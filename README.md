@@ -32,8 +32,15 @@ A análise foca nos **preços globais da gasolina** e no impacto do conflito ent
 ## 🔗 **Dataset:**  
 https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
 
-⚠️ **Observação:**  
-O dataset utilizado possui caráter **simulado/hipotético**, sendo baseado em cenários de impacto geopolítico sobre preços de combustíveis, com finalidade educacional e analítica.
+⚠️ **Observação:**  Origem e Confiabilidade dos Dados
+
+O dataset foi disponibilizado na plataforma Kaggle pelo usuário **zkskhurram**, sendo voltado para fins educacionais e analíticos.
+
+Os dados possuem caráter **simulado/hipotético**, representando um cenário de impacto de um conflito geopolítico (EUA x Irã em 2026) sobre os preços globais da gasolina.
+
+Por se tratar de um conjunto de dados sintético, não há garantia de atualização contínua ou correspondência com dados reais em tempo real. Ainda assim, o dataset é adequado para práticas de análise de dados, modelagem de processos ETL e construção de dashboards.
+
+Sua utilização neste projeto tem como objetivo explorar padrões, tendências e possíveis impactos em um cenário controlado, permitindo o desenvolvimento de habilidades analíticas.
 
 ---
 
