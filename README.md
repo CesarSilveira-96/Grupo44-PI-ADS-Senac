@@ -93,35 +93,6 @@ README.md --------- # Documentação principal do projeto
 
 ---
 
-## 🗓️ Planejamento
-
-| Semana   | Atividade                                                |
-|----------|----------------------------------------------------------|
-| Semana 1 | Criação do repositório e documentação inicial            |
-| Semana 2 | Seleção da base de dados e definição do escopo           |
-| Semana 3 | Limpeza e tratamento dos dados                           |
-| Semana 4 | Análises e hipóteses                                     |
-| Semana 5 | Construção do dashboard                                  |
-| Semana 6 | Interpretação dos resultados                             |
-| Semana 7 | Documentação final e entrega                             |
-
----
-
-## 👥 Responsabilidades
-
-| Tarefa                         | Responsável        |
-|--------------------------------|--------------------|
-| README                         | Todos              |
-| Análise inicial                | Allan + César      |
-| Tratamento de dados            | Marcos + Ricardo   |
-| Análises                       | Paulo              |
-| Dashboard                      | Todos              |
-| Conclusões                     | César  + Ricardo   |
-| Documentação                   | Allan              |
-| Revisão final                  | Marcos + Paulo     |
-
----
-
 ## 🔄 Processo ETL
 
 O processo de ETL (Extração, Transformação e Carga) foi estruturado para garantir a qualidade, consistência e confiabilidade dos dados utilizados na análise.
@@ -210,6 +181,35 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Visualizações             | ⏳ Pendente     |
 | Resultados                | ⏳ Pendente     |
 | Documentação final        | ⏳ Pendente     |
+
+---
+
+## 🗓️ Planejamento
+
+| Semana   | Atividade                                                |
+|----------|----------------------------------------------------------|
+| Semana 1 | Criação do repositório e documentação inicial            |
+| Semana 2 | Seleção da base de dados e definição do escopo           |
+| Semana 3 | Limpeza e tratamento dos dados                           |
+| Semana 4 | Análises e hipóteses                                     |
+| Semana 5 | Construção do dashboard                                  |
+| Semana 6 | Interpretação dos resultados                             |
+| Semana 7 | Documentação final e entrega                             |
+
+---
+
+## 👥 Responsabilidades
+
+| Tarefa                         | Responsável        |
+|--------------------------------|--------------------|
+| README                         | Todos              |
+| Análise inicial                | Allan + César      |
+| Tratamento de dados            | Marcos + Ricardo   |
+| Análises                       | Paulo              |
+| Dashboard                      | Todos              |
+| Conclusões                     | César  + Ricardo   |
+| Documentação                   | Allan              |
+| Revisão final                  | Marcos + Paulo     |
 
 ---
 
