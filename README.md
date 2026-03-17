@@ -144,57 +144,15 @@ Nesta etapa, os dados passam por um processo de limpeza e padronização, inclui
   - Indicadores de impacto do conflito
 
 ### 3. Carga
-- Exportação para CSV ou Parquet  
 
----
+Após o tratamento, os dados são armazenados para uso nas análises e visualizações:
 
-## 📊 Status do Projeto
+- Exportação para arquivos CSV e/ou Parquet:
 
-| Etapa                       | Status         |
-|---------------------------|----------------|
-| Repositório               | ✅ Concluído    |
-| Base de dados             | ✅ Concluído    |
-| Limpeza                   | ⏳ Em andamento |
-| Análises                  | ⏳ Pendente     |
-| Visualizações             | ⏳ Pendente     |
-| Resultados                | ⏳ Pendente     |
-| Documentação final        | ⏳ Pendente     |
-
----
-
-## 🔄 Status do ETL
-
-| Etapa         | Status         |
-|--------------|----------------|
-| Extração     | ✅ Concluído    |
-| Transformação| ⏳ Em andamento |
-| Carga        | ⏳ Em andamento |
-
----
-
-## 🔧 Transformações de Dados (ETL)
-
-### ✔️ Tratamento de dados
-- Preenchimento de valores nulos  
-- Remoção de dados irrelevantes  
-
-### ✔️ Limpeza
-- Remoção de duplicatas  
-
-### ✔️ Padronização
-- Conversão para datetime  
-- Dados numéricos em float  
-
-### ✔️ Normalização
-- Preços em (USD por litro)
-- Padronização de países  
-
-### ✔️ Engenharia de dados
-- Variação percentual  
-- Classificação por região  
-- Indicadores de impacto  
+df.to_csv('data/processed/dados_tratados.csv', index=False)
 
 ## **Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
+
 ---
 
 ## 📊 Dashboard (Planejado)
@@ -228,6 +186,30 @@ O dashboard será desenvolvido com o objetivo de permitir a análise interativa 
 ### 🎯 Objetivo do Dashboard
 
 Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos preços da gasolina, permitindo análises comparativas e identificação de padrões globais.
+
+---
+
+## 🔄 Status do ETL
+
+| Etapa         | Status         |
+|--------------|----------------|
+| Extração     | ✅ Concluído    |
+| Transformação| ⏳ Em andamento |
+| Carga        | ⏳ Em andamento |
+
+---
+
+## 📊 Status do Projeto
+
+| Etapa                       | Status         |
+|---------------------------|----------------|
+| Repositório               | ✅ Concluído    |
+| Base de dados             | ✅ Concluído    |
+| Limpeza                   | ⏳ Em andamento |
+| Análises                  | ⏳ Pendente     |
+| Visualizações             | ⏳ Pendente     |
+| Resultados                | ⏳ Pendente     |
+| Documentação final        | ⏳ Pendente     |
 
 ---
 
