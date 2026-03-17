@@ -25,14 +25,15 @@ A análise foca nos **preços globais da gasolina** e no impacto do conflito ent
 
 - **Nome:** Global Petrol Prices — Impact of 2026 US-Iran War  
 - **Fonte:** Kaggle  
+- **Autor:** zkskhurram
 - **Formato:** CSV  
-- **Tamanho:** ~150–300 K
+- **Tamanho:** ~150–300 KB
 - **Linhas:** ~250 a 600
 
 ## 🔗 **Dataset:**  
 https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
 
-⚠️ **Observação:**  Origem e Confiabilidade dos Dados
+## ⚠️ Origem e Confiabilidade dos Dados
 
 O dataset foi disponibilizado na plataforma Kaggle pelo usuário **zkskhurram**, sendo voltado para fins educacionais e analíticos.
 
@@ -81,15 +82,17 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 
 **📁 Estrutura do Repositório**
 
-/Data ------------ # Base de dados bruta e tratada
+/data
+  ├── raw          # Dados brutos
+  └── processed    # Dados tratados
 
-/notebooks -------- # Jupyter notebooks com análises exploratórias e scripts ETL
+/notebooks         # Análises e ETL
 
-/dashboard -------- # Arquivos e códigos relacionados ao dashboard
+/dashboard         # Arquivos do Power BI
 
-/docs ------------- # Documentações e relatórios adicionais
+/docs              # Documentação adicional
 
-README.md --------- # Documentação principal do projeto
+README.md
 
 ---
 
@@ -98,7 +101,7 @@ README.md --------- # Documentação principal do projeto
 O processo de ETL (Extração, Transformação e Carga) foi estruturado para garantir a qualidade, consistência e confiabilidade dos dados utilizados na análise.
 
 ### 1. Extração
-A extração dos dados é realizada a partir de um arquivo CSV obtido no Kaggle, utilizando a biblioteca **Pandas** no Python:
+A extração dos dados é realizada a partir de um arquivo CSV obtido no Kaggle, utilizando a biblioteca **Pandas** no Python: df = pd.read_csv('data/raw/dataset.csv')
 
 ### 2. Transformação
 
@@ -118,7 +121,7 @@ Nesta etapa, os dados passam por um processo de limpeza e padronização, inclui
 
 Após o tratamento, os dados são armazenados para uso nas análises e visualizações:
 
-- Exportação para arquivos CSV e/ou Parquet:
+- Exportação para arquivos CSV e/ou Parquet: df.to_csv('data/processed/dados_tratados.csv', index=False)
 
 **Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
 
