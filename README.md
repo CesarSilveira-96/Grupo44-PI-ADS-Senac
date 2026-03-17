@@ -180,10 +180,10 @@ Importação dos dados do arquivo CSV (Kaggle)
 ## 📊 Dashboard (Planejado)
 
 ### Visualizações
-- Série temporal de preços  
-- Mapa mundial (choropleth)  
+- Série temporal de preços  → analisar evolução ao longo do tempo
+- Mapa mundial (choropleth)  → comparar países
 - Comparação antes/depois do conflito  
-- Distribuição (boxplot/violino)  
+- Distribuição (boxplot/violino)  → identificar variações/extremos
 - Correlação (dispersão)  
 
 ### Métricas
@@ -192,6 +192,7 @@ Importação dos dados do arquivo CSV (Kaggle)
 - Países com maior impacto  
 - Ranking de preços  
 
+## **O dashboard terá como objetivo permitir a análise interativa dos preços globais, com foco em comparação temporal e geográfica**
 ---
 
 ## 👨‍💻 Integrantes
