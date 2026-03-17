@@ -189,20 +189,35 @@ Importação dos dados do arquivo CSV (Kaggle)
 
 ## 📊 Dashboard (Planejado)
 
-### Visualizações
-- Série temporal de preços  → analisar evolução ao longo do tempo
-- Mapa mundial (choropleth)  → comparar países
-- Comparação antes/depois do conflito  
-- Distribuição (boxplot/violino)  → identificar variações/extremos
-- Correlação (dispersão)  
+O dashboard será desenvolvido com o objetivo de permitir a análise interativa dos preços globais da gasolina, com foco em variações temporais e impactos geopolíticos.
 
-### Métricas
+### 📈 Visualizações e Justificativas
+
+- **Série temporal de preços**
+  - Permite analisar a evolução dos preços ao longo do tempo e identificar tendências e impactos do conflito.
+
+- **Mapa mundial (Choropleth)**
+  - Facilita a comparação geográfica entre países, destacando regiões mais afetadas.
+
+- **Comparação antes/depois do conflito**
+  - Ajuda a identificar mudanças significativas nos preços causadas pelo evento analisado.
+
+- **Distribuição de preços (Boxplot/Violino)**
+  - Permite visualizar a dispersão dos dados e identificar outliers.
+
+- **Gráfico de dispersão (Correlação)**
+  - Avalia relações entre variáveis, como região e variação de preços.
+
+### 📌 Principais Métricas
+
 - Preço médio global  
-- Variação percentual  
-- Países com maior impacto  
-- Ranking de preços  
+- Variação percentual dos preços  
+- Países com maior aumento/redução  
+- Ranking de preços por país  
 
-## **O dashboard terá como objetivo permitir a análise interativa dos preços globais, com foco em comparação temporal e geográfica**
+### 🎯 Objetivo do Dashboard
+
+Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos preços da gasolina, permitindo análises comparativas e identificação de padrões globais.
 
 ---
 
