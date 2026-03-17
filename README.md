@@ -174,6 +174,7 @@ Importação dos dados do arquivo CSV (Kaggle)
 - Classificação por região  
 - Indicadores de impacto  
 
+## **Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
 ---
 
 ## 📊 Dashboard (Planejado)
