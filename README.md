@@ -16,10 +16,10 @@ Este projeto tem como objetivo realizar a análise de uma base de dados por meio
 ---
 **📌 Base de Dados Selecionada**
 
-Global Petrol Prices — Impact of 2026 US-Iran War
-Fonte: Kaggle Dataset
-Formato: CSV
-Tamanho: Aproximadamente X MB / Y linhas (inserir o tamanho real)
+Global Petrol Prices — Impact of 2026 US-Iran War<br>
+Fonte: Kaggle Dataset<br>
+Formato: CSV<br>
+Tamanho: Aproximadamente X MB / Y linhas (inserir o tamanho real)<br>
 
 🔗 Dataset disponível em: https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
 
