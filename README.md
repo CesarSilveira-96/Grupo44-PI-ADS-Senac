@@ -101,7 +101,7 @@ README.md
 O processo de ETL (Extração, Transformação e Carga) foi estruturado para garantir a qualidade, consistência e confiabilidade dos dados utilizados na análise.
 
 ### 1. Extração
-A extração dos dados é realizada a partir de um arquivo CSV obtido no Kaggle, utilizando a biblioteca **Pandas** no Python: df = pd.read_csv('data/raw/dataset.csv')
+A extração dos dados é realizada a partir de um arquivo CSV obtido no Kaggle, utilizando a biblioteca **Pandas** no Python: ```df = pd.read_csv('data/raw/dataset.csv')```
 
 ### 2. Transformação
 
@@ -121,7 +121,7 @@ Nesta etapa, os dados passam por um processo de limpeza e padronização, inclui
 
 Após o tratamento, os dados são armazenados para uso nas análises e visualizações:
 
-- Exportação para arquivos CSV e/ou Parquet: df.to_csv('data/processed/dados_tratados.csv', index=False)
+- Exportação para arquivos CSV e/ou Parquet: ```df.to_csv('data/processed/dados_tratados.csv', index=False)```
 
 **Os dados tratados no processo de ETL serão utilizados diretamente na construção do dashboard, garantindo consistência nas métricas e visualizações.**
 
@@ -170,7 +170,7 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Carga        | ⏳ Em andamento |
 
 ---
-```
+
 ## 📊 Status do Projeto
 
 | Etapa                       | Status         |
@@ -182,7 +182,7 @@ Fornecer uma visão clara e interativa dos impactos do cenário geopolítico nos
 | Visualizações             | ⏳ Pendente     |
 | Resultados                | ⏳ Pendente     |
 | Documentação final        | ⏳ Pendente     |
-```
+
 ---
 
 ## 🗓️ Planejamento
