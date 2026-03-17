@@ -124,14 +124,24 @@ README.md --------- # Documentação principal do projeto
 
 ## 🔄 Processo ETL
 
+O processo de ETL (Extração, Transformação e Carga) foi estruturado para garantir a qualidade, consistência e confiabilidade dos dados utilizados na análise.
+
 ### 1. Extração
-Importação dos dados do arquivo CSV (Kaggle)
+A extração dos dados é realizada a partir de um arquivo CSV obtido no Kaggle, utilizando a biblioteca **Pandas** no Python:
 
 ### 2. Transformação
-- Tratamento de valores faltantes  
-- Remoção de duplicatas  
-- Padronização de dados  
-- Seleção de colunas relevantes  
+
+Nesta etapa, os dados passam por um processo de limpeza e padronização, incluindo:
+- Tratamento de valores ausentes (remoção ou imputação)
+- Remoção de registros duplicados
+- Padronização de nomes de países
+- Conversão de tipos de dados (ex: datas e valores numéricos)
+- Normalização dos preços para uma unidade padrão (USD por litro)
+- Identificação e tratamento de outliers
+- Criação de novas variáveis (feature engineering), como:
+  - Variação percentual de preços
+  - Classificação por regiões geográficas
+  - Indicadores de impacto do conflito
 
 ### 3. Carga
 - Exportação para CSV ou Parquet  
@@ -176,7 +186,7 @@ Importação dos dados do arquivo CSV (Kaggle)
 - Dados numéricos em float  
 
 ### ✔️ Normalização
-- Preços em USD/L  
+- Preços em (USD por litro)
 - Padronização de países  
 
 ### ✔️ Engenharia de dados
