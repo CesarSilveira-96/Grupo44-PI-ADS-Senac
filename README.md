@@ -26,7 +26,8 @@ A análise foca nos **preços globais da gasolina** e no impacto do conflito ent
 - **Nome:** Global Petrol Prices — Impact of 2026 US-Iran War  
 - **Fonte:** Kaggle  
 - **Formato:** CSV  
-- **Tamanho:** Aproximadamente X MB / Y linhas *(atualizar)*  
+- **Tamanho:** ~150–300 K
+- **Linhas:** ~250 a 600
 
 🔗 Dataset:  
 https://www.kaggle.com/datasets/zkskhurram/global-petrol-prices-impact-of-2026-us-iran-war
@@ -63,7 +64,7 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 
 - **Linguagem:** Python  
 - **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn  
-- **Dashboard:** Power BI / Tableau / Dash *(definir)*  
+- **Dashboard:** Power BI
 - **Versionamento:** Git e GitHub  
 
 ---
