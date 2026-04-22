@@ -77,6 +77,7 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 
 README.md
 ```
+...................
 2ª Etapa - Início
 
 /data
@@ -136,8 +137,8 @@ O dashboard foi desenvolvido no Power BI e apresenta uma visão integrada dos da
 - Análise geográfica
 - Variação percentual por país
 
-- 2ª Etapa - Final
-
+ 2ª Etapa - Final
+..............................
 ## 🔄 Processo ETL
 
 O processo de ETL (Extração, Transformação e Carga) foi estruturado para garantir a qualidade, consistência e confiabilidade dos dados utilizados na análise.
