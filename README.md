@@ -80,16 +80,19 @@ README.md
 ...................
 2ª Etapa - Início
 
-/data
+📁 Estrutura do Projeto
+data/
   dados_tratados_final.xlsx
   dados_oil_final.xlsx
 
-/dashboard
-  projeto-pi-final.pbix
+notebook/
+  analise_dados_preco.ipynb
 
-/images
+dashboard/
+  projeto_pi-final.pbix
+
+images/
   dashboard1.png
-  dashboard2.png
 
 ## 📊 Etapa 2 – Análise e Visualização de Dados
 
@@ -131,6 +134,10 @@ Nesta etapa, os dados tratados foram utilizados para a construção de um dashbo
 ## 📊 Dashboard
 
 O dashboard foi desenvolvido no Power BI e apresenta uma visão integrada dos dados analisados.
+
+## 🖼️ Preview do Dashboard
+
+![Dashboard](images/dashboard1.png)
 
 📌 Principais análises:
 - Comparação temporal
