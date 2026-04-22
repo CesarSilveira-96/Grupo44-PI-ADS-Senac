@@ -77,6 +77,66 @@ Analisar como conflitos geopolíticos influenciam o mercado global de energia, i
 
 README.md
 ```
+2ª Etapa - Início
+
+/data
+  dados_tratados_final.xlsx
+  dados_oil_final.xlsx
+
+/dashboard
+  projeto-pi-final.pbix
+
+/images
+  dashboard1.png
+  dashboard2.png
+
+## 📊 Etapa 2 – Análise e Visualização de Dados
+
+Nesta etapa, os dados tratados foram utilizados para a construção de um dashboard interativo no Power BI, com o objetivo de analisar os impactos do conflito geopolítico nos preços da gasolina.
+
+### 📈 Visualizações Desenvolvidas
+
+- **KPI – Preço Médio Global (USD)**
+  - Apresenta a média global do preço da gasolina após o conflito.
+
+- **Mapa Geográfico**
+  - Exibe a distribuição dos preços da gasolina por país, permitindo análise visual global.
+
+- **Gráfico de Comparação (Antes vs Depois)**
+  - Compara os preços da gasolina antes e após o conflito, evidenciando o impacto direto.
+
+- **Ranking de Aumento (%)**
+  - Mostra os países com maior variação percentual nos preços.
+
+- **Gráfico de Linha (Petróleo)**
+  - Apresenta a evolução do preço médio do petróleo ao longo do tempo.
+
+### 🎯 Principais Insights
+
+- Observou-se aumento significativo nos preços da gasolina em diversos países.
+- Países com maior dependência de importação de petróleo apresentaram maior impacto.
+- O aumento do preço do petróleo está diretamente relacionado ao aumento da gasolina.
+- Eventos geopolíticos influenciam diretamente o mercado global de energia.
+
+### 🛠️ Ferramentas Utilizadas
+
+- Python (Pandas, NumPy)
+- Jupyter Notebook
+- Power BI
+- Git e GitHub
+
+---
+
+## 📊 Dashboard
+
+O dashboard foi desenvolvido no Power BI e apresenta uma visão integrada dos dados analisados.
+
+📌 Principais análises:
+- Comparação temporal
+- Análise geográfica
+- Variação percentual por país
+
+- 2ª Etapa - Final
 
 ## 🔄 Processo ETL
 
