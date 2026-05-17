@@ -137,7 +137,7 @@ O dashboard foi desenvolvido no Power BI e apresenta uma visão integrada dos da
 
 ## 🖼️ Preview do Dashboard
 
-![Dashboard](images/dashboard1.png)
+![Dashboard](images/dashboard10.png)
 
 📌 Principais análises:
 - Comparação temporal
